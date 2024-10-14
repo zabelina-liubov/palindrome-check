@@ -1,0 +1,71 @@
+body {
+  background-color: #FADADD;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  margin: 10vh auto 7vh;
+  text-align: center;
+  font-size: 7vh;
+  color: #0a0a3e;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: white;
+  width: min(100vw, 450px);
+  min-height: 100px;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 10px auto 10px;
+  box-shadow: 0 8px 10px #F19CBB;
+}
+
+label {
+  font-size: 2.5vh;
+  margin: 2vh auto 2vh;
+}
+
+#text-input {
+    height: 30px;
+    width: 250px;
+    text-align: center;
+    font-size: 1.2rem;
+    margin: 10px;
+    border: none;
+    border-bottom: 3px solid #0a0a3e;
+}
+
+#check-btn {
+    width: 90px;
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: #0a0a3e;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 15px;
+}
+
+#pal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0a0a3e;
+  color: white;
+  width: min(100vw, 450px);
+  min-height: 100px;
+  border-radius: 20px;
+  padding: 20px;
+  margin: 30px auto 10px;
+  font-size: 23px;
+  text-align: center;
+}
+
+#result {
+  font-size: 20px;
+}
